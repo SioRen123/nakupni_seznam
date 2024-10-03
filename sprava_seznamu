@@ -37,6 +37,43 @@ def ukoncit_program():
     exit()
 -------------------------
 
+seznam = [] #tím jsem vyprázdnil seznam
+
+
+while True:
+    print("\n1 pro přidání položky.")
+    print("2 pro odebrání položky.")
+    print("3 pro zobrazení nákupního seznamu.")
+    print("4 pro abecední seřazení nákupního seznamu.")
+    print("5 pro zobrazení počtu položek v nákupním seznamu.")
+    print("6 pro ukončení programu.")
+
+    vyber_moznost = input("\nVyber možnost 1 až 6: ")
+    if vyber == "1":
+        pridat_polozku(seznam)
+    elif vyber == "2":
+        odebrat_polozku(seznam)
+    elif vyber == "3":
+        zobrazit_seznam(seznam)
+    elif vyber == "4":
+        seradit_seznam(seznam)
+    elif vyber == "5":
+        zobrazit_pocet_polozek(seznam)
+    elif vyber == "6":
+        ukoncit_program()
+    else:
+        print("Neplatný výběr možnosti. Vyber číslo od 1 do 6.")
+
+#tímto se předtím vytvořené fce volají
+
+
+
+
+
+
+
+
+
 
 
 
