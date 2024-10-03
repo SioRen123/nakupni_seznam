@@ -3,6 +3,8 @@ def pridat_polozku(seznam):
     seznam.append(polozka)
     print(f"Položka {polozka} byla přidána.")
 
+
+
 def odebrat_polozku(seznam):
     polozka = input("Zadej název položky k odebrání: ")
     if polozka in seznam:
@@ -10,3 +12,20 @@ def odebrat_polozku(seznam):
         print(f"Položka {polozka} byla odebrána.")
     else:
         print(f"Položka {polozka} není v nákupním seznamu.")
+
+--------------
+
+
+def zobrazit_seznam(seznam):
+    if seznam:
+        print(f"Tohle je tvůj nákupní seznam {seznam}.")
+    else:
+        print("Seznam je prázdný.")
+
+
+def seradit_seznam(seznam):
+    seznam.sort()
+    print("Nákupní seznam byl abecedně seřazen.")
+
+def zobrazit_pocet_polozek(seznam):
+    print(f"V seznamu je {len(seznam)} položek.")
