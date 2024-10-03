@@ -29,3 +29,14 @@ def seradit_seznam(seznam):
 
 def zobrazit_pocet_polozek(seznam):
     print(f"V seznamu je {len(seznam)} položek.")
+
+-------------------
+
+def ukoncit_program():
+    print("Program byl ukončen.")
+    exit()
+-------------------------
+
+
+
+
